@@ -1,34 +1,34 @@
-# 🏦 Sistema Bancário em Python
+# 🏦 Python Banking System
 
-Um sistema bancário desenvolvido em Python como parte dos desafios da DIO (Digital Innovation One), com foco na prática de lógica de programação, modularização e boas práticas de desenvolvimento.
+A banking system developed in Python as part of the **DIO (Digital Innovation One)** challenges, focusing on programming logic, modularization, and software development best practices.
 
-O projeto simula operações bancárias por meio de um menu interativo executado no terminal, permitindo cadastrar clientes, criar contas, realizar depósitos, saques e consultar extratos.
-
----
-
-## ✨ Funcionalidades
-
-- 💰 Depósito em conta
-- 💸 Saque com:
-  - limite máximo por operação;
-  - limite diário de saques;
-  - validação de saldo disponível.
-- 📄 Consulta de extrato
-- 👤 Cadastro de clientes utilizando CPF como identificador único
-- 🏦 Criação de contas bancárias vinculadas a clientes
-- 📋 Listagem de contas cadastradas
-- ⚠️ Tratamento de entradas inválidas
+The application simulates common banking operations through an interactive terminal menu, allowing users to register customers, create bank accounts, make deposits and withdrawals, and view account statements.
 
 ---
 
-## 🛠️ Tecnologias utilizadas
+## ✨ Features
+
+- 💰 Deposit funds
+- 💸 Withdraw funds with:
+  - maximum withdrawal amount per transaction;
+  - daily withdrawal limit;
+  - available balance validation.
+- 📄 View account statements
+- 👤 Register customers using CPF as a unique identifier
+- 🏦 Create bank accounts linked to registered customers
+- 📋 List all registered bank accounts
+- ⚠️ Input validation and error handling
+
+---
+
+## 🛠️ Technologies
 
 - Python 3
-- Biblioteca padrão `datetime`
+- Standard library (`datetime`)
 
 ---
 
-## 📂 Estrutura do projeto
+## 📂 Project Structure
 
 ```text
 .
@@ -39,21 +39,21 @@ O projeto simula operações bancárias por meio de um menu interativo executado
 
 ---
 
-## 🚀 Como executar
+## 🚀 Getting Started
 
-### Clone o repositório
+### Clone the repository
 
 ```bash
 git clone https://github.com/E-ternalSpring/python-banking-system.git
 ```
 
-### Entre na pasta
+### Navigate to the project directory
 
 ```bash
 cd python-banking-system
 ```
 
-### Execute o projeto
+### Run the application
 
 ```bash
 python sistema_bancario.py
@@ -61,18 +61,18 @@ python sistema_bancario.py
 
 ---
 
-## 💻 Exemplo de utilização
+## 💻 Usage Example
 
 ```text
 ========== MENU ==========
 
-[d] Depositar
-[s] Sacar
-[e] Extrato
-[c] Cadastro Cliente
-[n] Nova Conta
-[l] Listar Contas
-[q] Sair
+[d] Deposit
+[w] Withdraw
+[s] Statement
+[c] Register Customer
+[n] New Account
+[l] List Accounts
+[q] Quit
 
 ==========================
 
@@ -81,29 +81,35 @@ python sistema_bancario.py
 
 ---
 
-## 📚 Conceitos praticados
+## 📚 Concepts Practiced
 
-Durante o desenvolvimento deste projeto foram aplicados conceitos importantes da linguagem Python, como:
+This project explores several important Python concepts, including:
 
-- Modularização através de funções
-- Organização do código
+- Function modularization
+- Code organization
 - Docstrings
-- Tratamento de exceções (`try/except`)
-- Argumentos posicionais e nomeados (`/` e `*`)
-- Manipulação de listas e dicionários
-- Estruturas condicionais
-- Estruturas de repetição
-- Validação de entradas do usuário
+- Exception handling (`try/except`)
+- Positional-only and keyword-only arguments (`/` and `*`)
+- Lists and dictionaries
+- Conditional statements
+- Loops
+- User input validation
 
 ---
 
-## 📄 Licença
+## 🎯 Learning Objectives
 
-Este projeto está licenciado sob a licença MIT.
+The primary goal of this project was to reinforce Python fundamentals by implementing a complete command-line banking system while applying clean code practices and function modularization.
 
 ---
 
-## 👩‍💻 Autora
+## 📄 License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
+
+---
+
+## 👩‍💻 Author
 
 **Emmanuelle Espindola**
 
