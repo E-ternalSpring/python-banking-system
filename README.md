@@ -44,13 +44,13 @@ O projeto simula operações bancárias por meio de um menu interativo executado
 ### Clone o repositório
 
 ```bash
-git clone https://github.com/E-ternalSpring/sistema-bancario-python.git
+git clone https://github.com/E-ternalSpring/python-banking-system.git
 ```
 
 ### Entre na pasta
 
 ```bash
-cd sistema-bancario-python
+cd python-banking-system
 ```
 
 ### Execute o projeto
